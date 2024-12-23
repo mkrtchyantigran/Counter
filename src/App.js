@@ -7,16 +7,27 @@ const { Component } = require("react");
 
 
  export default class Counter extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      count: 1 
+    constructor({props, e}) {
+      super(props);
+      this.state = {
+        count: 1
+        
+
+    
     }
-  }
+  } 
+  
+    setPlus = () => this.setState(state => ({ count: state.count +1 }));
 
-  setPlus = () => this.setState(state => ({ count: state.count + 1 }))
-
-  setMinus = () =>  this.setState(state => ({ count: state.count -1 }))
+    setMinus = () =>  this.setState(state => {
+      if(state.count > 0) {
+        return {count: state.count -1};
+      } else {
+        return 0;
+      }
+    } );
+  
+  
   
   render() {
     return (
