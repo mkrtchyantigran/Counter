@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/counterWithClasses/static/css/main.6cd41433.css",
-    "main.js": "/counterWithClasses/static/js/main.80b1c665.js",
-    "index.html": "/counterWithClasses/index.html",
-    "main.6cd41433.css.map": "/counterWithClasses/static/css/main.6cd41433.css.map",
-    "main.80b1c665.js.map": "/counterWithClasses/static/js/main.80b1c665.js.map"
+    "main.css": "/Counter/static/css/main.6cd41433.css",
+    "main.js": "/Counter/static/js/main.80b1c665.js",
+    "index.html": "/Counter/index.html",
+    "main.6cd41433.css.map": "/Counter/static/css/main.6cd41433.css.map",
+    "main.80b1c665.js.map": "/Counter/static/js/main.80b1c665.js.map"
   },
   "entrypoints": [
     "static/css/main.6cd41433.css",
