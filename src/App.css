@@ -12,26 +12,31 @@
     .controls {
       display: flex;
       justify-content: center;
+    }
 
-      button {
-        display:flex;
-        margin: 0 2em;
-        padding: 15px 25px;
-        cursor: pointer;
-        color: #fff;
-        background-color: #fabd05;
-        border: none;
-        border-radius: 20px;
-        box-shadow: 0 5px  #cb9109;
-      }
+    .main-button {
+      display:flex;
+      margin: 0 2em;
+      padding: 15px 25px;
+      cursor: pointer;
+      color: #fff;
+      background-color: #fabd05;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 0 5px  #cb9109;
     
-      button:active {
+      &:active {
         box-shadow: none;
         transform: translateY(4px);
       }
+    }
 
-  }
+    
 }
+
+
+
+
 
 
 
